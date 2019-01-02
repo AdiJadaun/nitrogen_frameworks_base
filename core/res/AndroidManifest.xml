@@ -615,6 +615,9 @@
     <!-- Screenrecord -->
     <protected-broadcast android:name="org.omnirom.omnirecord.ACTION_START" />
 
+    <!-- Used to get active package name. -->
+    <protected-broadcast android:name="android.intent.action.ACTIVE_PACKAGE_CHANGED" />
+
     <!-- ====================================================================== -->
     <!--                          RUNTIME PERMISSIONS                           -->
     <!-- ====================================================================== -->
